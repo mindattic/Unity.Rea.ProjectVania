@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.IO;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>The outcome of the start-up load: the settings, or every error that stopped it.</summary>
     public sealed class StartupResult

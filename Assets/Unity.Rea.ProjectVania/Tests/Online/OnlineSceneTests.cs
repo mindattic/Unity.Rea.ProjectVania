@@ -3,14 +3,14 @@ using NUnit.Framework;
 using Unity.Multiplayer;
 using Unity.Multiplayer.UI;
 using Unity.Netcode;
-using Unity.ProjectVania.EditorTools;
-using Unity.ProjectVania.EditorTools.Online;
-using Unity.ProjectVania.Online;
+using Unity.Rea.ProjectVania.EditorTools;
+using Unity.Rea.ProjectVania.EditorTools.Online;
+using Unity.Rea.ProjectVania.Online;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace Unity.ProjectVania.Tests.Online
+namespace Unity.Rea.ProjectVania.Tests.Online
 {
     /// <summary>
     /// U.VAN-T31: the online scene OnlineSceneBuilder writes holds the kit's networking and front end (its Esc menu off,

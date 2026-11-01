@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Input;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// U.VAN-US-A4: the keyboard and Xbox pad do what the original's InputManager did in each game state, with its

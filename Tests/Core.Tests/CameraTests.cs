@@ -1,12 +1,12 @@
 using System;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.Viewing;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Viewing;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// The camera (U.VAN-US-A9, RECONSTRUCTION 7): CameraManager's modes, its 0.02 pull and 0.7 damping replayed frame

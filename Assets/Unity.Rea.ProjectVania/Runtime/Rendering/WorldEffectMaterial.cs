@@ -1,8 +1,8 @@
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The material every world sprite is drawn with (RECONSTRUCTION 6.1): <c>Resources/Shaders/WorldEffect</c> with the

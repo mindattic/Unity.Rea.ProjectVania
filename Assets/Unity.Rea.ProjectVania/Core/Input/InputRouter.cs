@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Input
+namespace Unity.Rea.ProjectVania.Core.Input
 {
     /// <summary>
     /// The original's InputManager dispatch (RECONSTRUCTION 3.2): one handler per game state, chosen by the state at

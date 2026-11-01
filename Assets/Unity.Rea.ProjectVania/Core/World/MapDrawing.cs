@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
 
-namespace Unity.ProjectVania.Core.World
+namespace Unity.Rea.ProjectVania.Core.World
 {
     /// <summary>A rectangle in the map's pixels (y down), as a stretched sprite covers it.</summary>
     public readonly struct PixelRect

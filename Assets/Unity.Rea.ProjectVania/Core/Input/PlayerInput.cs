@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Input
+namespace Unity.Rea.ProjectVania.Core.Input
 {
     /// <summary>Where a step's control state comes from: the Input System in the game, a script in tests.</summary>
     public interface IInputDevice

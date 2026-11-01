@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Commands
+namespace Unity.Rea.ProjectVania.Core.Commands
 {
     /// <summary>The only way game state changes. Always carries who issued it.</summary>
     public interface ICommand

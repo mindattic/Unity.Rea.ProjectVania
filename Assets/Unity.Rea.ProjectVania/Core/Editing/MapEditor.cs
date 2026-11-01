@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Viewing;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Viewing;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Editing
+namespace Unity.Rea.ProjectVania.Core.Editing
 {
     /// <summary>A whole-pixel rectangle tested as XNA's <c>Rectangle</c> tested one (edges exclusive).</summary>
     public readonly struct PixelBox

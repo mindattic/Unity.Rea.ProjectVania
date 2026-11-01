@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>Where one of the <see cref="ActionCrossData"/>'s four slots sits (<c>ActionCross.cs</c>).</summary>
     public enum ActionCrossPosition

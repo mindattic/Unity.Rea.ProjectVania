@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity.ProjectVania.EditorTools
+namespace Unity.Rea.ProjectVania.EditorTools
 {
     /// <summary>
     /// Imports the original's character strips (RECONSTRUCTION 4.8, 13) the way they are drawn: whole, unscaled (Leo's run
@@ -11,7 +11,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class CharacterArtImporter : AssetPostprocessor
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Resources/" + CharacterArt.ResourceFolder + "/";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Resources/" + CharacterArt.ResourceFolder + "/";
 
         void OnPreprocessTexture()
         {
@@ -45,7 +45,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class WorldArtImporter : AssetPostprocessor
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Resources/" + MapView.ResourceFolder + "/";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Resources/" + MapView.ResourceFolder + "/";
 
         void OnPreprocessTexture()
         {

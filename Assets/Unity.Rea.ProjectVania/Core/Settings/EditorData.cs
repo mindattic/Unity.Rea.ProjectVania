@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>
     /// editor.json: the map editor of RECONSTRUCTION 8 and 12 (<c>MapEditor\MapEditor.cs</c>, <c>Cursor.cs</c>,

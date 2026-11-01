@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// The character's physics and per-frame state machine (U.VAN-US-A6, RECONSTRUCTION 4.2-4.7, 4.9). Each test replays

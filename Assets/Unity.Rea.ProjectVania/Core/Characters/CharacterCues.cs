@@ -1,7 +1,7 @@
 using System;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Characters
+namespace Unity.Rea.ProjectVania.Core.Characters
 {
     /// <summary>
     /// The sounds one character makes (RECONSTRUCTION 4.8, 11): <c>Action_Run</c>'s <c>PlaySfx("step2")</c> and

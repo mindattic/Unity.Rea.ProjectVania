@@ -1,11 +1,11 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// The 16 px grid and its queries (U.VAN-US-A5, RECONSTRUCTION 5 and 4.4). Every expected value is worked by hand

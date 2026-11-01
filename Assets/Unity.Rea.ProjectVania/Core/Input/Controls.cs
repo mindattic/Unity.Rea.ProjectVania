@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Input
+namespace Unity.Rea.ProjectVania.Core.Input
 {
     /// <summary>
     /// A keyboard key, named and numbered exactly as XNA's <c>Microsoft.Xna.Framework.Input.Keys</c> (the virtual-key

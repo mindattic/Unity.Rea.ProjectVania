@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace Unity.ProjectVania.EditorTools
+namespace Unity.Rea.ProjectVania.EditorTools
 {
     /// <summary>
     /// Imports the rest of U.VAN-US-A16's inert art (RECONSTRUCTION 13: the particles, selectors, banners and sprite
@@ -11,7 +11,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class InertArtImporter : AssetPostprocessor
     {
-        public const string ResourcesRoot = "Assets/Unity.ProjectVania/Resources/";
+        public const string ResourcesRoot = "Assets/Unity.Rea.ProjectVania/Resources/";
 
         public static readonly string[] Folders = { "Particles/", "Selectors/", "Banners/", "SpriteSheets/" };
 

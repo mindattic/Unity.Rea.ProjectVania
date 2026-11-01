@@ -1,8 +1,8 @@
 using System;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Characters
+namespace Unity.Rea.ProjectVania.Core.Characters
 {
     /// <summary>Where the character stands (<c>Player.TerrainState</c>, RECONSTRUCTION 4.5). Hanging is declared and never used.</summary>
     public enum TerrainState

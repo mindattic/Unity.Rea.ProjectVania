@@ -4,12 +4,12 @@ using Unity.Multiplayer;        // NetPrefabList, NetKey
 using Unity.Multiplayer.Editor; // NetFrontEndSetup, NetSceneSetupOptions
 using Unity.Multiplayer.UI;     // NetFrontEnd, NetFrontEndSettings
 using Unity.Netcode;
-using Unity.ProjectVania.Online;
+using Unity.Rea.ProjectVania.Online;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace Unity.ProjectVania.EditorTools.Online
+namespace Unity.Rea.ProjectVania.EditorTools.Online
 {
     /// <summary>
     /// Writes the online scene (U.VAN-T31) in code, beside the local game's empty Main.unity: a black camera for the menus,
@@ -19,12 +19,12 @@ namespace Unity.ProjectVania.EditorTools.Online
     /// and <see cref="VaniaOnline"/>. The scene goes second in the build, so a launch still plays the local game first
     /// (<c>-online</c> opens this one). Everything is rewritten on every run, so what is committed is what this writes.
     ///
-    /// Batch: Unity -batchmode -quit -projectPath . -executeMethod Unity.ProjectVania.EditorTools.Online.OnlineSceneBuilder.BuildAll
+    /// Batch: Unity -batchmode -quit -projectPath . -executeMethod Unity.Rea.ProjectVania.EditorTools.Online.OnlineSceneBuilder.BuildAll
     /// </summary>
     public static class OnlineSceneBuilder
     {
         public const string ScenePath = ProjectBuilder.OnlineScenePath;
-        public const string Folder = "Assets/Unity.ProjectVania/Online/Prefabs";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Online/Prefabs";
         public const string PlayerPrefabPath = Folder + "/VaniaNetPlayer.prefab";
         public const string WorldSyncPrefabPath = Folder + "/VaniaWorldSync.prefab";
         public const string PrefabListPath = Folder + "/VaniaNetPrefabs.asset";

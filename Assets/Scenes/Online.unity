@@ -396,7 +396,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0dca5776cbe9e4a86066d5a31b616f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.Rea.ProjectVania.Online::Unity.ProjectVania.Online.VaniaOnline
+  m_EditorClassIdentifier: Unity.Rea.ProjectVania.Online::Unity.Rea.ProjectVania.Online.VaniaOnline
   worldSyncPrefab: {fileID: 602749781278879829, guid: a247347e89e9f1f4e981672b3e9bcdb6, type: 3}
 --- !u!4 &623598017
 Transform:

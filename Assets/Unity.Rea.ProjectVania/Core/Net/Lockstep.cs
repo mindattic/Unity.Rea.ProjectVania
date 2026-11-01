@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Input;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Net
+namespace Unity.Rea.ProjectVania.Core.Net
 {
     /// <summary>
     /// Routes one step's <see cref="StepRecord"/> into a world (U.VAN-T31): the authority's song end first, then each

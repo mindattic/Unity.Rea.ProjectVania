@@ -1,8 +1,8 @@
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     public class GameWorldTests
     {

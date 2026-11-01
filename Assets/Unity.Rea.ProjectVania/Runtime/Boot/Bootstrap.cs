@@ -1,12 +1,12 @@
 using System;
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The code-built bootstrap (RECONSTRUCTION 0): the project's one scene is empty, and this composes everything

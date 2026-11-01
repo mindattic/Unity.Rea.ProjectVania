@@ -1,10 +1,10 @@
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The map editor's World cursor (<c>MapEditor.DrawToWorld</c>, RECONSTRUCTION 6, 8): the 13 x 18 hand, tinted by the

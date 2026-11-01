@@ -1,11 +1,11 @@
 using System.IO;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Net;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Net;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>
     /// U.VAN-T31: the game host's online modes without a network. An authority host and a client host built from the

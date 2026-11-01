@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>
     /// The settings registry: every tuning figure, content definition and text of the game, loaded from the data
@@ -170,7 +170,7 @@ namespace Unity.ProjectVania.Core.Settings
                 // to fall back to idle, as the original's KeyNotFoundException crash was not carried over).
                 foreach (var move in character.MoveSet)
                 {
-                    var required = global::Unity.ProjectVania.Core.Characters.CharacterAnimator.ClipFor(move);
+                    var required = global::Unity.Rea.ProjectVania.Core.Characters.CharacterAnimator.ClipFor(move);
                     if (required != null && sheet.Find(required) == null)
                     {
                         errors.Add($"{AnimationsFile}: sheet '{sheet.Sheet}' has no '{required}' animation, which '{character.Name}''s {move} plays");

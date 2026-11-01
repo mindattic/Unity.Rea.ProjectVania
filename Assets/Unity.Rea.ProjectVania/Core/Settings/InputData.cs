@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Input;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>
     /// Every bindable action of the original's InputManager (RECONSTRUCTION 3.1, 3.2, 9.2, 10.2). Which controls

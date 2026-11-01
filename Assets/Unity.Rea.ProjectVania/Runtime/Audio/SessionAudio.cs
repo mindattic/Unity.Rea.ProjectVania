@@ -2,7 +2,7 @@ using System;
 using Unity.Shared.Core;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// How the CLI mute reaches the game (U.VAN-T29): launched with <c>-muted</c> or <c>MINDATTIC_CLI_MUTED=1</c>,

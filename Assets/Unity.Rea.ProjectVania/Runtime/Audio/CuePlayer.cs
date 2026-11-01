@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Plays the cues the world names (<c>AudioManager.PlayAmbience</c> / <c>PlaySfx</c>, RECONSTRUCTION 11) from

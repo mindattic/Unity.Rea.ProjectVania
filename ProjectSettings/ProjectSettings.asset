@@ -834,14 +834,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Unity.ProjectVania
+  metroPackageName: Unity.Rea.ProjectVania
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Unity.ProjectVania
+  metroApplicationDescription: Unity.Rea.ProjectVania
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0

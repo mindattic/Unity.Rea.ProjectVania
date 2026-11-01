@@ -1,6 +1,6 @@
 {
     "name": "Unity.Rea.ProjectVania.Editor.Online",
-    "rootNamespace": "Unity.ProjectVania.EditorTools.Online",
+    "rootNamespace": "Unity.Rea.ProjectVania.EditorTools.Online",
     "references": [
         "Unity.Rea.ProjectVania.Core",
         "Unity.Rea.ProjectVania.Runtime",

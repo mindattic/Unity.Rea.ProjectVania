@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>A two-number figure from a data file: a position, a size or a rectangle's corner.</summary>
     public readonly struct Pair

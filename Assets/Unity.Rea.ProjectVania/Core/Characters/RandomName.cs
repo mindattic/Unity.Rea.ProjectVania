@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Unity.ProjectVania.Core.Characters
+namespace Unity.Rea.ProjectVania.Core.Characters
 {
     /// <summary>
     /// <c>g.RandomName</c> (RECONSTRUCTION 4.1, 14): a uniform pick from names.json's table for the character's gender.

@@ -1,14 +1,14 @@
 using System;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Input;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.LowLevel;
-using CoreKey = Unity.ProjectVania.Core.Input.Key;
+using CoreKey = Unity.Rea.ProjectVania.Core.Input.Key;
 using UnityKey = UnityEngine.InputSystem.Key;
-using MouseButton = Unity.ProjectVania.Core.Input.MouseButton;
+using MouseButton = Unity.Rea.ProjectVania.Core.Input.MouseButton;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The keyboard, the first Xbox pad and the mouse through the Input System, read into Core's

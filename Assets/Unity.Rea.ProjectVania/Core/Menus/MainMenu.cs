@@ -1,8 +1,8 @@
 using System;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Menus
+namespace Unity.Rea.ProjectVania.Core.Menus
 {
     /// <summary>
     /// The original's main menu (<c>Gui\MainMenu\MainMenu.cs</c> and the menu methods of <c>InputManager</c>,

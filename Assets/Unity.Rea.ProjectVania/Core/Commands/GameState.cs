@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Commands
+namespace Unity.Rea.ProjectVania.Core.Commands
 {
     /// <summary>The game states of the original (RECONSTRUCTION 2).</summary>
     public enum GameState { Play, MainMenu, Console, MapEditor }

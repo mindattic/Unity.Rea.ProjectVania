@@ -1,11 +1,11 @@
 using System;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// The original's five shaders (U.VAN-US-A15, RECONSTRUCTION 6.1), run per sprite in its own texture coordinates:

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Unity.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Input;
 
-namespace Unity.ProjectVania.Core.Net
+namespace Unity.Rea.ProjectVania.Core.Net
 {
     /// <summary>
     /// Everything one step of an online game took from outside the world (U.VAN-T31): each seated player's input frame,

@@ -1,7 +1,7 @@
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Draws the 800x600 reference pixel-perfect: an orthographic camera showing exactly 600 rows at the grid's

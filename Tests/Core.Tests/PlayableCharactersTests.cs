@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// Owner decision 2026-10-23 (U.VAN-T25): Morris, Shanoa and Leo are all spawned and all playable, [ / ] (L1 / R1)

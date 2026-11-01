@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Display
+namespace Unity.Rea.ProjectVania.Core.Display
 {
     /// <summary>
     /// An image as the original addressed it: <see cref="Width"/> x <see cref="Height"/> pixels, row 0 at the top (y down).

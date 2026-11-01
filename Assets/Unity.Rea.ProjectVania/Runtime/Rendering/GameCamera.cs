@@ -1,9 +1,9 @@
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.Viewing;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Viewing;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Shows a player's Core camera (<see cref="WorldCamera"/>, the original's <c>CameraManager</c>, RECONSTRUCTION 7)

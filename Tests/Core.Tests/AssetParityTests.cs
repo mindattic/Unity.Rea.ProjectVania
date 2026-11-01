@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// U.VAN-US-A17: every sprite, texture, sound, font and data file the original loaded is in the rebuild. The
@@ -28,7 +28,7 @@ namespace Unity.ProjectVania.Core.Tests
                 var dir = new DirectoryInfo(TestContext.CurrentContext.TestDirectory);
                 while (dir != null)
                 {
-                    var candidate = Path.Combine(dir.FullName, "Assets", "Unity.ProjectVania", "Resources");
+                    var candidate = Path.Combine(dir.FullName, "Assets", "Unity.Rea.ProjectVania", "Resources");
                     if (Directory.Exists(candidate))
                     {
                         return candidate;
@@ -37,7 +37,7 @@ namespace Unity.ProjectVania.Core.Tests
                     dir = dir.Parent;
                 }
 
-                throw new DirectoryNotFoundException("Assets/Unity.ProjectVania/Resources not found above the test folder.");
+                throw new DirectoryNotFoundException("Assets/Unity.Rea.ProjectVania/Resources not found above the test folder.");
             }
         }
 

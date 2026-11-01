@@ -1,8 +1,8 @@
 using System;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Gui
+namespace Unity.Rea.ProjectVania.Core.Gui
 {
     /// <summary>
     /// The original's console window (<c>Gui\Console\Console.cs</c>, RECONSTRUCTION 10.1): the panel's top edge and

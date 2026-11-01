@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Simulation;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     public enum Gender
     {

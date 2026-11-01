@@ -3,7 +3,7 @@ using NUnit.Framework;
 using Unity.Shared.Core;
 using UnityEngine;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>
     /// The CLI mute (U.VAN-T29): <c>-muted</c> / <c>MINDATTIC_CLI_MUTED=1</c> turns on Unity.Shared's session mute, the

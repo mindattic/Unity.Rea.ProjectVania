@@ -1,9 +1,9 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.EditorTools;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.EditorTools;
 using Unity.Shared.Core;
 using UnityEditor;
 using UnityEngine;
@@ -11,7 +11,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>The Unity 6 setup of U.VAN-US-A3: bootstrap, start-up load, pixel-perfect camera, URP, Input System, profiles.</summary>
     public class BootstrapTests
@@ -81,7 +81,7 @@ namespace Unity.ProjectVania.Tests
             Assert.That(host.World, Is.Not.Null);
             Assert.That(host.World.Map, Is.Not.Null, "the world is built on the bridge level");
             Assert.That(host.World.Map.Columns, Is.EqualTo(118));
-            Assert.That(host.World.Map.CellMatchesState(20, 0, Unity.ProjectVania.Core.World.CellState.Hard), Is.True);
+            Assert.That(host.World.Map.CellMatchesState(20, 0, Unity.Rea.ProjectVania.Core.World.CellState.Hard), Is.True);
             Assert.That(Profiles.IsConfigured, Is.True);
             Assert.That(Profiles.Current.Settings, Is.Not.Null);
 

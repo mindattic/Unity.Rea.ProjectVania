@@ -69,5 +69,5 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25ae02c9e7cce4e40b1bb02a48d0fbe9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.Rea.ProjectVania.Online::Unity.ProjectVania.Online.VaniaNetPlayer
+  m_EditorClassIdentifier: Unity.Rea.ProjectVania.Online::Unity.Rea.ProjectVania.Online.VaniaNetPlayer
   ShowTopMostFoldoutHeaderGroup: 1

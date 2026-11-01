@@ -1,7 +1,7 @@
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Gui
+namespace Unity.Rea.ProjectVania.Core.Gui
 {
     /// <summary>What the script reaches outside the console: the message stack, the fade lens, the songs, the program.</summary>
     public interface IScriptHost

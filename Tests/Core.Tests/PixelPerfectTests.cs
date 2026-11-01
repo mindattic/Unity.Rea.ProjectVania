@@ -1,8 +1,8 @@
 using System;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     public class PixelPerfectTests
     {

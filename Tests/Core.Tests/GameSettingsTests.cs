@@ -3,10 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// The settings registry (U.VAN-US-A2): every shipped data file in Assets/StreamingAssets/Settings loads and holds

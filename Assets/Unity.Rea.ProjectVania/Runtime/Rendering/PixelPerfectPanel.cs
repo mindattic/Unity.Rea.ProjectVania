@@ -1,8 +1,8 @@
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Keeps a UI Toolkit panel pixel-perfect with <see cref="PixelPerfectCamera"/>: the same <see cref="PixelPerfect"/>

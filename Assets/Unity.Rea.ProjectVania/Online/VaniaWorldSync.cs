@@ -1,9 +1,9 @@
 using Unity.Multiplayer;      // NetEntity, NetSession
 using Unity.Multiplayer.Core; // [ToClients]
-using Unity.ProjectVania.Core.Net;
+using Unity.Rea.ProjectVania.Core.Net;
 using UnityEngine;
 
-namespace Unity.ProjectVania.Online
+namespace Unity.Rea.ProjectVania.Online
 {
     /// <summary>
     /// The one authority's steps, sent to every peer (U.VAN-T31). The server spawns one per session, keyed

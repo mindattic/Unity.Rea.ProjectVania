@@ -1,14 +1,14 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Input;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using CoreKey = Unity.ProjectVania.Core.Input.Key;
+using CoreKey = Unity.Rea.ProjectVania.Core.Input.Key;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>
     /// U.VAN-US-A4 through the real Input System: fake keyboard, Xbox pad and mouse drive the composed game host, and

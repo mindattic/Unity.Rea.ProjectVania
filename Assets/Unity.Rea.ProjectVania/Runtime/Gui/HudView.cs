@@ -1,12 +1,12 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Gui;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Gui;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Draws the pictures of the always-on HUD (RECONSTRUCTION 9.1) in <c>GuiManager.Draw</c>'s order, every frame in

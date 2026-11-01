@@ -2,13 +2,13 @@ using System.Collections.Generic;
 using Unity.Multiplayer;      // NetBootstrap, NetSession, HeadlessBootstrap
 using Unity.Multiplayer.Core; // Disconnection
 using Unity.Multiplayer.UI;   // NetFrontEnd
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Net;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Net;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Unity.ProjectVania.Online
+namespace Unity.Rea.ProjectVania.Online
 {
     /// <summary>
     /// The online scene's one game component (U.VAN-T31). The menus are the Unity.Multiplayer kit's drop-in front end

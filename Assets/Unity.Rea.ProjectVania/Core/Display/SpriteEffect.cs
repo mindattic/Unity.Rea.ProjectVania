@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Display
+namespace Unity.Rea.ProjectVania.Core.Display
 {
     /// <summary>
     /// The original's five pixel shaders (<c>Content\Effects\*.fx</c>, RECONSTRUCTION 6.1), each run per sprite in that

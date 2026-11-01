@@ -1,7 +1,7 @@
 using System;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Characters
+namespace Unity.Rea.ProjectVania.Core.Characters
 {
     /// <summary>
     /// One character's sprite animation: the original's <c>AnimationPlayer</c> struct and the <c>sprite.PlayAnimation</c>

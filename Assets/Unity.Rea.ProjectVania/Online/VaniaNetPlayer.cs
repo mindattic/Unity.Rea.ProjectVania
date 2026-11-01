@@ -1,12 +1,12 @@
 using System;
 using Unity.Multiplayer;      // NetEntity
 using Unity.Multiplayer.Core; // [ToServer], [ToOwner], [Synced]
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Input;
-using Unity.ProjectVania.Core.Net;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Net;
 using UnityEngine;
 
-namespace Unity.ProjectVania.Online
+namespace Unity.Rea.ProjectVania.Online
 {
     /// <summary>
     /// One online player (U.VAN-T31): the NetworkManager's Player Prefab, so every connection gets one, carrying its seat,

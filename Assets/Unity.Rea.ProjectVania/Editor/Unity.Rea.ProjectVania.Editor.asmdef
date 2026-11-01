@@ -1,6 +1,6 @@
 {
     "name": "Unity.Rea.ProjectVania.Editor",
-    "rootNamespace": "Unity.ProjectVania.EditorTools",
+    "rootNamespace": "Unity.Rea.ProjectVania.EditorTools",
     "references": [
         "Unity.Rea.ProjectVania.Core",
         "Unity.Rea.ProjectVania.Runtime",

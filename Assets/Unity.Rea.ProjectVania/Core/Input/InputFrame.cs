@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Input
+namespace Unity.Rea.ProjectVania.Core.Input
 {
     /// <summary>
     /// Every control's state for one 60 Hz step: which keys, pad buttons and mouse buttons are down, whether a pad is

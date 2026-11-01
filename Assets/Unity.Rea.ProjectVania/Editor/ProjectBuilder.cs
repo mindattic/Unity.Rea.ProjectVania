@@ -6,13 +6,13 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Unity.ProjectVania.EditorTools
+namespace Unity.Rea.ProjectVania.EditorTools
 {
     /// <summary>
     /// Sets the project up in code and builds it from the command line (U.VAN-T6). <see cref="Ensure"/> creates the
     /// pipeline and the one empty bootstrap scene if they are missing and lists the scene in the build settings (the
     /// game itself is composed by <see cref="Bootstrap"/> at start-up). <see cref="Build"/> is the batch entry point:
-    /// <c>Unity -batchmode -quit -projectPath . -executeMethod Unity.ProjectVania.EditorTools.ProjectBuilder.Build</c>
+    /// <c>Unity -batchmode -quit -projectPath . -executeMethod Unity.Rea.ProjectVania.EditorTools.ProjectBuilder.Build</c>
     /// (see unity.ps1), exiting non-zero if the build fails. Tests run through the same CLI with -runTests.
     /// </summary>
     public static class ProjectBuilder

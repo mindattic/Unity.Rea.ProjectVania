@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>
     /// online.json: the online session's figures (U.VAN-T31). The original had no online play; these size the shared

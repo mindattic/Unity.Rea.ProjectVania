@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using Unity.Multiplayer; // IBotDriver, NetBot, [NetBotDriver]
-using Unity.ProjectVania.Core.Input;
+using Unity.Rea.ProjectVania.Core.Input;
 using UnityEngine;
 using UnityEngine.Scripting;
 
-namespace Unity.ProjectVania.Online
+namespace Unity.Rea.ProjectVania.Online
 {
     /// <summary>
     /// The game's bot (U.VAN-T31): launched with <c>-bot A</c> (<c>mp-host game smoke</c>), the kit joins with no menus

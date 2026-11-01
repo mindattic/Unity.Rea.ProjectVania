@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.World
+namespace Unity.Rea.ProjectVania.Core.World
 {
     /// <summary>
     /// The world's collision grid (<c>World\Map\Map.cs</c>, RECONSTRUCTION 5): a map of <see cref="Width"/> x

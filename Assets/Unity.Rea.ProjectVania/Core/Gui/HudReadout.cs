@@ -1,11 +1,11 @@
 using System;
 using System.Globalization;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Gui
+namespace Unity.Rea.ProjectVania.Core.Gui
 {
     /// <summary>
     /// <c>GuiManager.Draw</c>'s debug text (RECONSTRUCTION 9.1), written every frame in every state, built from the world

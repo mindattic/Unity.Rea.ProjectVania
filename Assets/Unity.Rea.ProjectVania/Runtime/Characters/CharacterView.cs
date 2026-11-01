@@ -1,9 +1,9 @@
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Simulation;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Simulation;
+using Unity.Rea.ProjectVania.Core.World;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// Draws one Core character (<c>Player.Draw</c>, RECONSTRUCTION 4.8): picks the strip its action plays, advances the

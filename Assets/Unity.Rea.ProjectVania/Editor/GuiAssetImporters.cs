@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity.ProjectVania.EditorTools
+namespace Unity.Rea.ProjectVania.EditorTools
 {
     /// <summary>
     /// Imports the GUI's art (RECONSTRUCTION 9, 13) whole and uncompressed, without mipmaps. XNA's SpriteBatch sampled
@@ -14,7 +14,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class GuiArtImporter : AssetPostprocessor
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Resources/" + MainMenuView.ResourceFolder + "/";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Resources/" + MainMenuView.ResourceFolder + "/";
 
         /// <summary>The GUI pictures the original stretched.</summary>
         public static readonly string[] Stretched = { "menu1", "console1", "red", "portrait_1", "tilepalette_background" };
@@ -45,7 +45,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class CueAudioImporter : AssetPostprocessor
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Resources/" + CuePlayer.ResourceFolder + "/";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Resources/" + CuePlayer.ResourceFolder + "/";
 
         void OnPreprocessAudio()
         {
@@ -71,7 +71,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public sealed class SongAudioImporter : AssetPostprocessor
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Resources/" + SongPlayer.ResourceFolder + "/";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Resources/" + SongPlayer.ResourceFolder + "/";
 
         void OnPreprocessAudio()
         {

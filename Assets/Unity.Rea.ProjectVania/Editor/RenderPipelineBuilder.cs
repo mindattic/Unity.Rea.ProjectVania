@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-namespace Unity.ProjectVania.EditorTools
+namespace Unity.Rea.ProjectVania.EditorTools
 {
     /// <summary>
     /// Builds the game's URP 2D pipeline in code (U.VAN-T6), so no one wires a pipeline asset by hand. It creates
@@ -16,7 +16,7 @@ namespace Unity.ProjectVania.EditorTools
     /// </summary>
     public static class RenderPipelineBuilder
     {
-        public const string Folder = "Assets/Unity.ProjectVania/Rendering";
+        public const string Folder = "Assets/Unity.Rea.ProjectVania/Rendering";
         public const string PipelinePath = Folder + "/ProjectVaniaURP.asset";
         public const string RendererPath = Folder + "/ProjectVania2DRenderer.asset";
         const string PostProcessDataPath = "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset";

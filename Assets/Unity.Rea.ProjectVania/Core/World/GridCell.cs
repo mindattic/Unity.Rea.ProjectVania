@@ -1,7 +1,7 @@
 using System;
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 
-namespace Unity.ProjectVania.Core.World
+namespace Unity.Rea.ProjectVania.Core.World
 {
     /// <summary>
     /// A cell's state (<c>GridCell.CellState</c>, RECONSTRUCTION 5). Only <see cref="Hard"/> collides; <see cref="Soft"/>

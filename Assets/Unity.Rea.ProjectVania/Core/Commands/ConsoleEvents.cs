@@ -1,6 +1,6 @@
-using Unity.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Display;
 
-namespace Unity.ProjectVania.Core.Commands
+namespace Unity.Rea.ProjectVania.Core.Commands
 {
     // What the console's script asks of the rest of the game (ScriptManager.ExecuteScript, RECONSTRUCTION 10.3). The
     // world keeps the state each one changes (Fade, Muted, Music) and names the change as an event; the message stack and

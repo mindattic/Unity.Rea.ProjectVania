@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Display
+namespace Unity.Rea.ProjectVania.Core.Display
 {
     /// <summary>
     /// An XNA <c>Color</c>: four bytes, not premultiplied (XNA 3.0's <c>SpriteBlendMode.AlphaBlend</c> blends

@@ -1,11 +1,11 @@
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Tests
+namespace Unity.Rea.ProjectVania.Core.Tests
 {
     /// <summary>
     /// What the map draws (U.VAN-US-A8, RECONSTRUCTION 5, 6): the outline worked from <c>Shape.CreateBox</c> and its

@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Commands
+namespace Unity.Rea.ProjectVania.Core.Commands
 {
     /// <summary>
     /// Who issued a command. The original had one global current player; the rebuild seam is that

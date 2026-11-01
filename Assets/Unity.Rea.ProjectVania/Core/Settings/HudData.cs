@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>
     /// hud.json: the always-on HUD of RECONSTRUCTION 9.1 (<c>Portrait</c>, <c>QuickBar</c>, <c>Lenses</c>,

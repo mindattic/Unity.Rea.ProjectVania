@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The characters' sprite strips (RECONSTRUCTION 4.8, 13): <c>Resources/Characters/&lt;sheet&gt;/&lt;animation&gt;.png</c>,

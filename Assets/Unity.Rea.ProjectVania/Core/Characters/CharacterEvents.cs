@@ -1,6 +1,6 @@
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Characters
+namespace Unity.Rea.ProjectVania.Core.Characters
 {
     /// <summary>
     /// A character's action changed over a step (commands and update together), so presentation can switch its

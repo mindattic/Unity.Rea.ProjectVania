@@ -1,6 +1,6 @@
 {
     "name": "Unity.Rea.ProjectVania.Core",
-    "rootNamespace": "Unity.ProjectVania.Core",
+    "rootNamespace": "Unity.Rea.ProjectVania.Core",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

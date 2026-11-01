@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Commands
+namespace Unity.Rea.ProjectVania.Core.Commands
 {
     /// <summary>
     /// A sound cue to play (<c>Audio.PlayAmbience</c> / <c>PlaySfx</c>): presentation looks <see cref="Cue"/> up in

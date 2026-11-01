@@ -108,7 +108,7 @@ The game can be played online on the shared Unity.Multiplayer kit (BIBLE, **Onli
 online scene is opened with `-online` (or `.\play.ps1 -Online`) and offers Host, Join by IP, Join by code and Play
 alone. Up to three players each drive their own character (Morris, Shanoa, Leo) in the host's one game, kept in step
 by a lockstep the host orders. `Assets/Scenes/Online.unity` is written in code by **MindAttic > ProjectVania > Rebuild
-Online Scene** (`Unity.ProjectVania.EditorTools.Online.OnlineSceneBuilder.BuildAll` in batch); `mp-host game smoke`
+Online Scene** (`Unity.Rea.ProjectVania.EditorTools.Online.OnlineSceneBuilder.BuildAll` in batch); `mp-host game smoke`
 runs a dedicated server with two bots.
 
 ## Original source

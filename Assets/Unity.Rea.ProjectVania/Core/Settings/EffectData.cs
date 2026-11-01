@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.Settings
+namespace Unity.Rea.ProjectVania.Core.Settings
 {
     /// <summary>The five shaders <c>EffectManager</c> loaded (<c>Content\Effects\*.fx</c>, RECONSTRUCTION 6.1).</summary>
     public enum EffectPreset

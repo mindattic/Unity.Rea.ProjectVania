@@ -1,13 +1,13 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Gui;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Gui;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>
     /// The always-on HUD on screen (U.VAN-US-A12, RECONSTRUCTION 9.1): the portrait and quick bar from the original's art

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
 
-namespace Unity.ProjectVania.Core.Gui
+namespace Unity.Rea.ProjectVania.Core.Gui
 {
     /// <summary>
     /// The original's always-on HUD state (RECONSTRUCTION 9.1): the quick bar's slide, the fade lens and the message

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 
-namespace Unity.ProjectVania
+namespace Unity.Rea.ProjectVania
 {
     /// <summary>
     /// The original's <c>MediaPlayer</c> (RECONSTRUCTION 11): plays audio.json's two songs, <c>music</c> and <c>battle</c>,

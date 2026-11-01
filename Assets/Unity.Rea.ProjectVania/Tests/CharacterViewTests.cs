@@ -1,13 +1,13 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using Unity.ProjectVania.Core.Characters;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.Characters;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Settings;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Unity.ProjectVania.Tests
+namespace Unity.Rea.ProjectVania.Tests
 {
     /// <summary>
     /// The characters on screen (U.VAN-US-A7, RECONSTRUCTION 4.1, 4.8): every strip of every sheet loads and is cut into

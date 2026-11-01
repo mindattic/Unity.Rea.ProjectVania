@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Display
+namespace Unity.Rea.ProjectVania.Core.Display
 {
     /// <summary>A viewport inside a window, in pixels, origin bottom-left.</summary>
     public readonly struct PixelViewport

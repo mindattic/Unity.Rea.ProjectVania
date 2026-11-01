@@ -1,10 +1,10 @@
 using System;
-using Unity.ProjectVania.Core.Commands;
-using Unity.ProjectVania.Core.Display;
-using Unity.ProjectVania.Core.Settings;
-using Unity.ProjectVania.Core.World;
+using Unity.Rea.ProjectVania.Core.Commands;
+using Unity.Rea.ProjectVania.Core.Display;
+using Unity.Rea.ProjectVania.Core.Settings;
+using Unity.Rea.ProjectVania.Core.World;
 
-namespace Unity.ProjectVania.Core.Viewing
+namespace Unity.Rea.ProjectVania.Core.Viewing
 {
     /// <summary>
     /// The original's <c>CameraManager</c> (RECONSTRUCTION 7), one per player, stepped by the world after the characters

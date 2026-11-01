@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.ProjectVania.Core.Simulation
+namespace Unity.Rea.ProjectVania.Core.Simulation
 {
     /// <summary>
     /// The 60 Hz clock (RECONSTRUCTION 0). The original ran the XNA fixed timestep, so every constant is

@@ -1,6 +1,6 @@
 {
     "name": "Unity.Rea.ProjectVania.Tests",
-    "rootNamespace": "Unity.ProjectVania.Tests",
+    "rootNamespace": "Unity.Rea.ProjectVania.Tests",
     "references": [
         "Unity.Rea.ProjectVania.Core",
         "Unity.Rea.ProjectVania.Runtime",

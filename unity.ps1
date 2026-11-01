@@ -20,7 +20,7 @@ $unityArgs = @("-batchmode", "-projectPath", $project, "-logFile", $log)
 if ($Mode -ne "capture") { $unityArgs = @("-nographics") + $unityArgs }
 switch ($Mode) {
     "capture" {
-        $unityArgs += @("-executeMethod", "Unity.ProjectVania.EditorTools.SceneCapture.Capture", "-captureOutput", (Join-Path $project "Logs/Capture"))
+        $unityArgs += @("-executeMethod", "Unity.Rea.ProjectVania.EditorTools.SceneCapture.Capture", "-captureOutput", (Join-Path $project "Logs/Capture"))
     }
     "compile" { $unityArgs += @("-quit") }
     "test" {
@@ -28,7 +28,7 @@ switch ($Mode) {
         if ($Filter) { $unityArgs += @("-testFilter", $Filter) }
     }
     "build" {
-        $unityArgs += @("-quit", "-executeMethod", "Unity.ProjectVania.EditorTools.ProjectBuilder.Build", "-buildOutput", $Output)
+        $unityArgs += @("-quit", "-executeMethod", "Unity.Rea.ProjectVania.EditorTools.ProjectBuilder.Build", "-buildOutput", $Output)
     }
 }
 # -ArgumentList takes a string[] but Windows PowerShell 5.1 joins it with spaces and reparses it, so an

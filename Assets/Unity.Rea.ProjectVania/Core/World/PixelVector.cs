@@ -1,4 +1,4 @@
-namespace Unity.ProjectVania.Core.World
+namespace Unity.Rea.ProjectVania.Core.World
 {
     /// <summary>
     /// A position in the original's pixels, y down (XNA's <c>Vector2</c>). A mutable value with public fields, as the

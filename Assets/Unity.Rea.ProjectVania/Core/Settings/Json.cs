@@ -305,8 +305,8 @@ namespace Unity.Rea.ProjectVania.Core.Settings
                         case 'r': builder.Append('\r'); break;
                         case 't': builder.Append('\t'); break;
                         case 'u':
-                            if (_at + 4 > _text.Length ||
-                                !int.TryParse(_text.Substring(_at, 4), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out var code))
+                            if (_at + 4 > _text.Length || !IsHex(_text, _at, 4) ||
+                                !int.TryParse(_text.Substring(_at, 4), NumberStyles.AllowHexSpecifier, CultureInfo.InvariantCulture, out var code))
                             {
                                 throw Error("a \\u escape needs four hex digits");
                             }
@@ -328,9 +328,15 @@ namespace Unity.Rea.ProjectVania.Core.Settings
                     _at++;
                 }
 
+                var integerStart = _at;
                 if (!Digits())
                 {
                     throw Error("a number needs digits");
+                }
+
+                if (_text[integerStart] == '0' && _at - integerStart > 1)
+                {
+                    throw Error("a number cannot have a leading zero");
                 }
 
                 if (Peek('.'))
@@ -357,6 +363,20 @@ namespace Unity.Rea.ProjectVania.Core.Settings
                 }
 
                 return double.Parse(_text.Substring(start, _at - start), NumberStyles.Float, CultureInfo.InvariantCulture);
+            }
+
+            private static bool IsHex(string text, int start, int length)
+            {
+                for (var i = start; i < start + length; i++)
+                {
+                    var c = text[i];
+                    if (!((c >= '0' && c <= '9') || (c >= 'a' && c <= 'f') || (c >= 'A' && c <= 'F')))
+                    {
+                        return false;
+                    }
+                }
+
+                return true;
             }
 
             private bool Digits()

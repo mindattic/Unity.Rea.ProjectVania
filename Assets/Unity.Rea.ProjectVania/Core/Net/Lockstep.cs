@@ -107,7 +107,7 @@ namespace Unity.Rea.ProjectVania.Core.Net
         public List<byte[]> HistoryFrom(long tick)
         {
             var messages = new List<byte[]>();
-            var first = (int)Math.Max(0, Math.Min((tick - _start) / _chunkSteps, _chunks.Count));
+            var first = tick <= _start ? 0 : (int)Math.Min((tick - _start) / _chunkSteps, _chunks.Count);
             for (var i = first; i < _chunks.Count; i++) messages.Add(_chunks[i]);
             if (_open.Count > 0) messages.Add(StepCodec.EncodeSteps(_open));
             return messages;

@@ -15,11 +15,16 @@
     Open the online scene (U.VAN-T31: the Unity.Multiplayer kit's Host / Join menus) instead of local play.
 .PARAMETER Wait
     Wait for the player to exit and return its exit code.
+.PARAMETER Headless
+    Run with no window through ..\Unity.Shared\tools\Start-Headless.ps1 (Unity.Shared's --headless mode, U.VAN-T39):
+    muted, in the background, straight into play, and it waits for the MINDATTIC_HEADLESS_READY log line.
+    The player keeps running afterwards; stop it yourself.
 #>
 param(
     [switch]$Build,
     [switch]$Sound,
     [switch]$Wait,
+    [switch]$Headless,
     [switch]$Online,
     [Parameter(ValueFromRemainingArguments = $true)][string[]]$PlayerArgs
 )
@@ -34,6 +39,13 @@ if ($Build -or -not (Test-Path $exe)) {
     if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 }
 New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
+
+if ($Headless) {
+    # U.VAN-T39: the shared launcher adds --headless -batchmode -nographics and the -logFile.
+    $hArgs = @(); if ($Online) { $hArgs += '-online' }; if ($PlayerArgs) { $hArgs += $PlayerArgs }
+    & (Join-Path $root '..\Unity.Shared\tools\Start-Headless.ps1') -Exe $exe -LogFile $log -Wait @hArgs
+    exit $LASTEXITCODE
+}
 
 $arguments = @('-logFile', "`"$log`"")
 if (-not $Sound) { $arguments += '-muted' }

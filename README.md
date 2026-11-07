@@ -83,6 +83,14 @@ Every tuning figure, text and content definition is a JSON file in `Assets/Strea
 validated on load; state changes only through commands carrying a player id, so presentation never mutates
 the game.
 
+### Headless launches
+
+`.\play.ps1 -Headless` runs the built player with no window for scripted testing (U.VAN-T39): it goes through
+`..\Unity.Shared\tools\Start-Headless.ps1` (`--headless -batchmode -nographics`: muted, in the background) and waits for the
+`MINDATTIC_HEADLESS_READY` line in `Logs/play.log`. The game has no boot menu to skip (it starts in play, the main menu being an
+in-game overlay), so the game itself changes nothing. The player keeps running afterwards; stop it yourself. See
+Unity.Shared's README, "Headless mode".
+
 ### Muted launches
 
 `play.ps1` launches muted: it sets `MINDATTIC_CLI_MUTED=1` and passes `-muted`, so a CLI or agent starting

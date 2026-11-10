@@ -71,3 +71,9 @@ updated: 2026-10-23
 | U.VAN-T33 | 2026-10-29 | chore | closed | Rename Unity.ProjectVania to Unity.Rea.ProjectVania everywhere: folder, GitHub, namespaces, docs, deployments (identifies it as reverse-engineered) | f82e343 |
 | U.VAN-T34 | 2026-10-29 | chore | closed | Rename repo to Unity.Rea.ProjectVania: GitHub, local folder, in-repo asmdef/asset tree, ticket DB key | ac10f4db9f08df61a40b3421dbddb4bb9ca987f7 |
 | U.VAN-T35 | 2026-10-31 | docs | closed | Update USER_STORIES.md | — |
+| U.VAN-T36 | 2026-11-02 | docs | closed | Adopt MindAttic.Agency docs-site pipeline, publish README to GitHub Pages (HOUSE-LAW-14) | 337ca10 |
+| U.VAN-T37 | 2026-11-02 | fix | closed | Bughunt sweep, two passes: find and fix real bugs across tracked source (user request 2026-11-02) | dfeb8a3e1ade8628a35eb2f2c36f83658ce08089 |
+| U.VAN-T38 | 2026-11-06 | chore | closed | Standardize run.ps1/run.bat at repo root per the Unity.Rea.* convention (part of U.CHN-T112) | 158b7ca |
+| U.VAN-T39 | 2026-11-06 | feature | closed | Adopt the shared off-by-default --headless launch mode (Unity.Shared) | 90bf793365b518a7e569729759a1cb9b154b02b9 |
+| U.VAN-T40 | 2026-11-10 | chore | closed | Crash recovery: commit the command-catalog sync (.agent/commands/*.md) and regenerated docs/USER_STORIES.md left uncommitted by the session crash | — |
+| U.VAN-T41 | 2026-11-10 | chore | open | Crash recovery: commit the command-catalog sync (.agent/commands/*.md) and regenerated docs/USER_STORIES.md left uncommitted by the session crash | — |
